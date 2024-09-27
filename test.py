@@ -8,6 +8,11 @@ if __name__ == '__main__':
     # m_path = '../../../Remote data/PSharpen/mat/6 WorldView-3/MS_256/1.mat'
     # p_path = '../../../Remote data/PSharpen/mat/6 WorldView-3/PAN_1024/1.mat'
     # import scipy.io
+    # def to_tensor(image):
+    #     max_i = np.max(image)
+    #     min_i = np.min(image)
+    #     image = (image - min_i) / (max_i - min_i)
+    #     return image
     # ms = np.expand_dims(np.transpose(scipy.io.loadmat(m_path)['imgMS'], (2, 0, 1)), axis=0)
     # pan = np.expand_dims(np.expand_dims(scipy.io.loadmat(p_path)['imgPAN'], axis=0), axis=0)
     # ms = torch.from_numpy(to_tensor(ms[:, :4, :32, :32])).type(torch.FloatTensor).to(device)
