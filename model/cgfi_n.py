@@ -392,7 +392,7 @@ if __name__ == '__main__':
     ms = torch.randn([1, 8, 32, 32]).to(device)
     pan = torch.randn([1, 1, 128, 128]).to(device)
     args = {
-        'num_channels': 4,
+        'num_channels': 8,
         'patch_size': 32,
         'device': device
     }
