@@ -12,7 +12,7 @@ from PIL import Image
 from timm.models.layers import DropPath, to_2tuple, trunc_normal_
 from model.gcnn import GCN, conv3x3, BasicBlk
 # from model.swin_ct import (BasicLayer, WindowAttention, ContourletAttention,
-                           PatchMerging, Mlp, window_partition, window_reverse)
+#                          PatchMerging, Mlp, window_partition, window_reverse)
 # from model.gctrans import PatchExpand, PatchReduce
 import time
 
