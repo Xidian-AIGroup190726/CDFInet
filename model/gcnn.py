@@ -1,4 +1,4 @@
-from model.Dfpn import dfpn
+# from model.Dfpn import dfpn
 # from Tools.GCNK import Graph2dConvolution
 import torch.nn as nn
 import torch
